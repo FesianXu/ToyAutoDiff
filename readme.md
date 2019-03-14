@@ -16,6 +16,12 @@ if this project is helpful, please give me some stars, thanks~
 
 **No Warranty**: This project is just used for tutorial and does not provide any warranty for the code.
 
+
+
+# How to run
+
+Evaluating the code is easy, the `autodiff.py` is the definition of all `nodes` and `ops` which corresponding to the computation graph forward and backward flow. The `autodiff_test.py` sets up some specific examples including scalar multiplication and matrix multiplication and so on to evaluate the code in `autodiff.py` right or not. So mostly you need to read the code in `autodiff.py` and just run `autodiff_test.py`
+
 # Reference
 
 [1]. https://github.com/dlsys-course/assignment1
